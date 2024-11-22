@@ -1,14 +1,5 @@
-import os
-import sys
-import re
-import shutil
 from Bio import SeqIO
 from collections import defaultdict
-import random
-import operator
-import subprocess
-import shlex
-from Bio import Phylo
 
 summary = "rawout.txt"
 euk_genomes = "protein_file"
